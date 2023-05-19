@@ -32,6 +32,7 @@ def PegarNumeros(botao):
 
 def LimpaCampo():
     display.delete(0, tk.END)
+    label_resultado['text'] = ''
     return
 
 
